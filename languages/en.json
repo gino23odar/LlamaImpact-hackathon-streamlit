@@ -16,7 +16,7 @@
     "class_type": "Class type:",
     "modality": "Modality:",
     "class_purpose": "Class Purpose:",
-    "language_input": "Language (default: English):",
+    "language_input": "Language (default: Spanish):",
     "special_instructions": "Special Instructions (optional):",
     "save_button": "Save Class Details",
     "success_message": "Class details saved successfully! Proceed to the next page.",

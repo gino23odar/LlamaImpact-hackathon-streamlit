@@ -35,7 +35,11 @@ def app():
     level = st.selectbox(
         translations['class_type'], translations['class_type_options']
     )
-    modality = st.radio(translations['modality'], ["Virtual", "Presential"])
+    
+    if st.session_state.language == 'esp':
+        modality = st.radio(translations['modality'], ["Virtual", "Presencial"])
+    else:
+        modality = st.radio(translations['modality'], ["Virtual", "Presential"])
     purpose = st.selectbox(
         translations['class_purpose'], translations['class_purpose_options']
     )
