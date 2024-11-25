@@ -1,0 +1,51 @@
+/* Fondo general */
+body {
+    background-color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+    color: #1F77B4; /* Azul principal */
+    font-weight: bold;
+}
+
+/* Botones */
+.stButton > button {
+    background-color: #1F77B4; /* Azul */
+    color: #FFFFFF; /* Texto blanco */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.stButton > button:hover {
+    background-color: #FFC107; /* Amarillo */
+    color: #000000; /* Texto negro */
+}
+
+/* Barras laterales */
+.stSidebar {
+    background-color: #F8F8F8; /* Gris claro */
+    padding: 15px;
+}
+
+.stSidebar h3 {
+    color: #1F77B4; /* Azul */
+}
+
+/* Mensajes de éxito */
+.stAlert {
+    background-color: #34A853; /* Verde */
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
