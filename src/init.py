@@ -5,10 +5,10 @@ import os
 # Function to load translations based on language preference
 def load_translations(language):
     if language == 'eng':
-        with open('../languages/en.json', 'r', encoding='utf-8') as f:
+        with open('./languages/en.json', 'r', encoding='utf-8') as f:
             return json.load(f)
     elif language == 'esp':
-        with open('../languages/es.json', 'r', encoding='utf-8') as f:
+        with open('./languages/es.json', 'r', encoding='utf-8') as f:
             return json.load(f)
 
 # Set page config
@@ -41,7 +41,7 @@ translations = load_translations(st.session_state.language)
 st.title(translations['welcome_message'])
 col1, col2, col3 = st.columns([1, 6, 1])  # Adjust these numbers to control the spacing
 with col2:
-    st.image("../assets/academ-ia-2.png", caption="AcademIA logo", width=250, clamp=True)
+    st.image("./assets/academ-ia-2.png", caption="AcademIA logo", width=250, clamp=True)
 st.write(f"""
     {translations['instructions']}
     - {translations['start_instructions']}

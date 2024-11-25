@@ -90,10 +90,10 @@ def generate_class_plan_from_files(class_details, uploaded_files):
 # Main app logic
 def load_translations(language):
     if language == "eng":
-        with open("../languages/en.json", "r") as f:
+        with open("./languages/en.json", "r") as f:
             return json.load(f)
     elif language == "esp":
-        with open("../languages/es.json", "r") as f:
+        with open("./languages/es.json", "r") as f:
             return json.load(f)
 
 

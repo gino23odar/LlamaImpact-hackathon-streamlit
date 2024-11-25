@@ -4,8 +4,8 @@ import os
 
 # Function to load translations based on the selected language
 def load_translations(language):
-    path_to_json_en = os.path.join('..', 'languages', 'en.json')
-    path_to_json_es = os.path.join('..', 'languages', 'es.json')
+    path_to_json_en = os.path.join('.', 'languages', 'en.json')
+    path_to_json_es = os.path.join('.', 'languages', 'es.json')
     if language == 'eng':
         with open(path_to_json_en, 'r') as f:
             return json.load(f)
