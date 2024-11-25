@@ -121,6 +121,8 @@ def app():
         translations["upload_documents"], type=["txt", "pdf"], accept_multiple_files=True
     )
 
+    st.sidebar.subheader(translations["limit_warning"])
+
     if st.button(translations["generate_class_plan_2"]):
         class_plan = generate_class_plan_from_files(class_details, uploaded_files)
         st.subheader(translations["generated_class_plan"])

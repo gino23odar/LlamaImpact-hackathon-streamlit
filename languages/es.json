@@ -30,7 +30,8 @@
     "generating_embeddings": "Generando incrustaciones...",
     "generated_embeddings": "Incrustaciones generadas para",
     "generated_class_plan": "Plan de clase generado:",
-    "language_selection": "Seleccionar Idioma"
+    "language_selection": "Seleccionar Idioma",
+    "limit_warning": "Este demo solo puede manejar archivos de hasta 500 KB. Por favor, tenlo en cuenta al subir un nuevo documento."
 }
 
   

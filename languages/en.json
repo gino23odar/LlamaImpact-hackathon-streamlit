@@ -30,6 +30,7 @@
     "generating_embeddings": "Generating embeddings...",
     "generated_embeddings": "Generated embeddings for",
     "generated_class_plan": "Generated Class Plan:",
-    "language_selection": "Select Language"
+    "language_selection": "Select Language",
+    "limit_warning": "This Demo version can only take up to 500 KB files. Please keep that in mind when uploading a new document."
   }
   
