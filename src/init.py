@@ -8,7 +8,7 @@ def load_translations(language):
         with open('../languages/en.json', 'r', encoding='utf-8') as f:
             return json.load(f)
     elif language == 'esp':
-        with open('/languages/es.json', 'r', encoding='utf-8') as f:
+        with open('../languages/es.json', 'r', encoding='utf-8') as f:
             return json.load(f)
 
 # Set page config
